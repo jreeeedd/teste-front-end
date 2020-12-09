@@ -1,56 +1,70 @@
-<h1>Front-end Test - Anota AI</h1>
+# Getting Started with Create React App
 
-This test is presented to the Front End development candidates to evaluate technical
-knowledge. You will have 6 hours to complete the challenge.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<strong>Prerequisites:</strong>
+## Available Scripts
 
-- Use a SPA framework/library of your choice (Angular 2+, React or Vuejs) that
-you will need to have already installed with its dependencies.
-Notes
-- You can use a complementary framework/library (bootstrap, angular material,
-etc.) for handling the style of the page and listing the data. Or if you prefer, you
-can use only CSS, which is good.
-- We will be happy if you use design patterns in your project. But this is optional.
-- Don't be alarmed, we don't expect everyone to be able to complete all the tasks,
-this test is the same one presented for candidates of all experience levels, so do
-what you can without worrying.
-- Instructions on how to send the test are at the end of this file.
-The Challenge
-Your challenge is to create a digital menu using a SPA framework. For this, we provide
-you with some HTML and CSS files with a very simple basic structure of the page that
-you will work on. We will also provide the API that should be used, as well as a file with
-the same structure in JSON for those who are unable to use the API.
-Feel free to change the structure and appearance of the given base files, do whatever
-you want, maybe make it responsive.
+In the project directory, you can run:
 
-<strong>Tasks</strong>
-1 - Create a workspace and an initial application with the SPA framework of your
-choice. If you wish, you can also create a new Git repository to send us the link at the
-end of the test.
-2 - Create a list of products on the homepage. Choose one of the following three
-options for you to access the JSON list:
-- Send a HTTP GET request to the URI below to receive the JSON list:
-https://front-end-test-app.s3.amazonaws.com/menu.json
-- Use the list of items exported in file menu.js that you can import using the syntax
-below (considering that last part as the path to the file menu.js):
-import menu from "./menu.js"
-- Copy the contents of the file menu.js to a variable in your code.
-3 - Insert an option to delete product (the product must be removed from the list on the
-front-end)
-4 - Insert option to rate a product from 1 to 5.
-5 - Insert a “search field” and implement product filtering feature where the user can
-filter the products by title or description.
+### `npm start`
 
-<strong>BONUS</strong> - Create a new page with a form to insert new products on the menu. To
-do this, you’ll need to add routes for navigation between pages and you will also need
-to store the list of products in some way to work on it while the application is running, as
-we will not provide a route for inserting products in our API. No problem if the added
-data is lost when the page is reloaded.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-<strong>Instructions</strong>
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-To start the test, <strong>fork</strong> this repository, create a branch with its full name and then send us the link to the test performed (link to your repository). If you just clone the repository you will not be able to push and then it will be more complicated to make the pull request. The choice of libraries, databases, architecture, etc. is at your discretion.
-Change the README file explaining what it takes to run your application.
-Paste the branch name into the GUPY system and indicate the completion of the test
-If you want you can leave us feedback regarding the test
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
